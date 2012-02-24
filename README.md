@@ -6,10 +6,14 @@ based on http://silas.sewell.org/blog/2009/03/08/profile-management-with-git-and
 Setup
 -----
 
-1. `git clone git@github.com:mohlendo/dotfiles.git dotfiles.git`
-2. `mv .dotfiles.git/.git .dotfiles.git`
-3. `mv -i dotfiles.git/* .`
-4. `rmdir dotfiles.git`
+1. Clone your configuration repository
+   `git clone git@github.com:mohlendo/dotfiles.git dotfiles.git`
+2. Move the git metadata to `~/.dotfiles.git`
+   `mv .dotfiles.git/.git .dotfiles.git`
+3. Move your configuration files to your home directory
+   `mv -i dotfiles.git/* .`
+4. Delete the `config.git` directory
+   `rmdir dotfiles.git`
 
 Basic use
 --------
