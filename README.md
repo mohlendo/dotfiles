@@ -6,5 +6,5 @@ based on http://silas.sewell.org/blog/2009/03/08/profile-management-with-git-and
 Basic use
 --------
 
-*     dotfiles pull
-*     dotfiles add -f .<some_dotfile>
+* `dotfiles pull`
+* `dotfiles add -f .<some_dotfile>`
