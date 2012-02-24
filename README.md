@@ -6,10 +6,10 @@ based on http://silas.sewell.org/blog/2009/03/08/profile-management-with-git-and
 Setup
 -----
 
-# `git clone git@github.com:mohlendo/dotfiles.git dotfiles.git`
-# `mv dotfiles.git/.git .dotfiles.git`
-# `mv -i dotfiles.git/* .`
-# `rmdir dotfiles.git`
+1. `git clone git@github.com:mohlendo/dotfiles.git dotfiles.git`
+2. `mv dotfiles.git/.git .dotfiles.git`
+3. `mv -i dotfiles.git/* .`
+4. `rmdir dotfiles.git`
 
 Basic use
 --------
