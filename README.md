@@ -7,7 +7,7 @@ Setup
 -----
 
 1. `git clone git@github.com:mohlendo/dotfiles.git dotfiles.git`
-2. `mv dotfiles.git/.git .dotfiles.git`
+2. `mv .dotfiles.git/.git .dotfiles.git`
 3. `mv -i dotfiles.git/* .`
 4. `rmdir dotfiles.git`
 
