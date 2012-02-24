@@ -1,0 +1,26 @@
+[user]
+	name = Manuel Ohlendorf
+  email = manuel.ohlendorf@coremedia.com
+[branch]
+  autosetuprebase = always
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+  status = auto
+[alias]
+  dt = difftool
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[diff]
+  tool = vimdiff
+	renamelimit = 0
+[difftool "vimdiff"]
+  cmd = vimdiff $LOCAL $REMOTE
+[difftool]
+  prompt = false
+
+[merge]
+  tool = vimdiff
+[mergetool "vimdiff"]
+  cmd = vimdiff $LOCAL $REMOTE

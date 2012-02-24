@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/mohlendo/gitorious/ui/editor-sdk/editor-bdd'
+let g:netrw_dirhist_2='/home/mohlendo/gitorious/editor2-project-workspace/studio/starterkit-studio-webapp'
+let g:netrw_dirhist_3='/home/mohlendo/gitorious/studio/studio-developer-en'
+let g:netrw_dirhist_4='/home/mohlendo/gitorious/cms-its-tests/webeditor/webeditor-webapp'
+let g:netrw_dirhist_5='/home/mohlendo/.ssh'
+let g:netrw_dirhist_6='/home/mohlendo/github/jangaroo-libs/jangaroo-libs-parent'
+let g:netrw_dirhist_7='/home/mohlendo/github/jangaroo-ext-as-examples/hello-world-3-exml'
+let g:netrw_dirhist_8='/home/mohlendo/.ssh'
+let g:netrw_dirhist_9='/etc/dhcp3'

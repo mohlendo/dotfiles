@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/etc/bash_completion.d'
+let g:netrw_dirhist_2='/home/mohlendo/git/jangaroo-libs/jangaroo-libs-parent'
+let g:netrw_dirhist_3='/home/mohlendo/git/simple_blog_html5/themes'
+let g:netrw_dirhist_4='/home/mohlendo/git/simple_blog_html5/_templates'
+let g:netrw_dirhist_5='/home/mohlendo/git/ui/ui-parent'
+let g:netrw_dirhist_6='/home/mohlendo/.local/share/applications'
