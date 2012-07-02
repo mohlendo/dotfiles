@@ -1,1 +1,2 @@
-alias dotfiles='git --git-dir=/home/mohlendo/.dotfiles.git --work-tree=/home/mohlendo'
+# force bashrc to load everytime the terminal is started
+[[ -s ~/.bashrc ]] && source ~/.bashrc

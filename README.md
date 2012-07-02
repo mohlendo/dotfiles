@@ -12,11 +12,11 @@ Setup
    
 2. Move the git metadata to `~/.dotfiles.git`
 
-        mv .dotfiles.git/.git .dotfiles.git
+        mv dotfiles.git/.git .dotfiles.git
    
 3. Move your configuration files to your home directory
         
-        mv -i dotfiles.git/* .
+        mv -ri dotfiles.git/*. .
    
 4. Delete the `config.git` directory
         
