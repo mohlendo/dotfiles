@@ -1,3 +1,6 @@
+#homebrew settings
+PATH="/usr/local/bin:$PATH"
+
 #git bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
@@ -12,7 +15,7 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
 
 # android tools to path
-PATH=$PATH\:/Library/android-sdk-macosx/tools\:/Library/android-sdk-macosx/platform-tools
+PATH="$PATH:/Library/android-sdk-macosx/tools:/Library/android-sdk-macosx/platform-tools"
 
 # some more ls aliases
 alias ls="ls -G" #color ls
@@ -22,3 +25,13 @@ alias l='ls -CF'
 
 #for dotfiles management
 alias dotfiles='git --git-dir=/Users/moh/.dotfiles.git --work-tree=/Users/moh' 
+
+#Node.js ndm
+NODE_PATH="/usr/local/lib/node:/usr/local/lib/node_modules"
+PATH="$PATH:/usr/local/share/npm/bin"
+
+#ruby
+PATH="/usr/local/Cellar/ruby/1.9.3-p194/bin:$PATH"
+
+#java
+JAVA_HOME="/usr/libexec/java_home"

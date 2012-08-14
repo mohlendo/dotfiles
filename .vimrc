@@ -8,13 +8,20 @@
 "	      for Amiga:  s:.vimrc
 "  for MS-DOS and Win32:  $VIM\_vimrc
 "	    for OpenVMS:  sys$login:.vimrc
-set t_Co=256
+" set t_Co=256
 
+set guifont=Bitstream\ Vera\ Sans\ Mono:h12
 colorscheme molokai
+let g:molokai_original = 1
 
-map <F2> :NERDTreeToggle<CR>
+let mapleader=","
+
+let g:nerdtree_tabs_open_on_gui_startup=0 "no nerdtree on startup
+map <F2> <plug>NERDTreeTabsToggle<CR>
+
 map <F3> :FufBuffer<CR>
-
+map <F4> :bp<CR>
+map <F5> :bn<CR>
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -100,12 +107,12 @@ if has("autocmd")
   autocmd FileType ruby setlocal sw=2 sts=2 et tw=72 
   autocmd FileType cucumber setlocal sw=2 sts=2 et  
   autocmd FileType java setlocal sw=2 sts=2 et  
-  autocmd FileType javascript setlocal sw=2 sts=2 et  
+  autocmd FileType javascript setlocal sw=4 sts=4 et  
+  autocmd FileType jade  setlocal sw=4 sts=4 et  
   autocmd FileType htmldjango setlocal sw=4 sts=4 et  
   autocmd FileType jsp setlocal sw=2 sts=2 et  
   autocmd FileType html setlocal sw=2 sts=2 et  
   autocmd FileType xhtml setlocal sw=2 sts=2 et  
-  "autocmd BufRead install.script 1,$s#/opt/coremedia#/home/jb/playground/coremedia#g 
   augroup END 
   
   autocmd FileType python set omnifunc=pythoncomplete#Complete

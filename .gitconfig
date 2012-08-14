@@ -1,10 +1,10 @@
 [user]
 	name = Manuel Ohlendorf
-	email = m.ohlendorf@gmail.com
+	email = moh@icnh.de
 [credential]
   helper = osxkeychain
-[branch]
-  autosetuprebase = always
+#[branch]
+#  autosetuprebase = always
 [color]
   branch = auto
   diff = auto
@@ -26,3 +26,5 @@
 [mergetool "vimdiff"]
   cmd = vimdiff $LOCAL $REMOTE
 
+[core]
+	excludesfile = /Users/moh/.gitignore
