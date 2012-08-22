@@ -24,7 +24,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 #for dotfiles management
-alias dotfiles='git --git-dir=/Users/moh/.dotfiles.git --work-tree=/Users/moh' 
+alias dotfiles='git --git-dir=.dotfiles.git --work-tree=.' 
 
 #Node.js ndm
 NODE_PATH="/usr/local/lib/node:/usr/local/lib/node_modules"
