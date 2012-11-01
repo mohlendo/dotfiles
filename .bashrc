@@ -31,7 +31,8 @@ NODE_PATH="/usr/local/lib/node:/usr/local/lib/node_modules"
 PATH="$PATH:/usr/local/share/npm/bin"
 
 #ruby
-PATH="/usr/local/Cellar/ruby/1.9.3-p194/bin:$PATH"
+PATH="/usr/local/Cellar/ruby/1.9.3-p286/bin:$PATH"
+GEM_HOME="$(brew --prefix)/Cellar/gems/1.9"
 
 #java
 JAVA_HOME="/usr/libexec/java_home"

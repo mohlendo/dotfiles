@@ -25,6 +25,11 @@ map <F2> <plug>NERDTreeTabsToggle<CR>
 map <F3> :FufBuffer<CR>
 map <F4> :bp<CR>
 map <F5> :bn<CR>
+
+" omnicompletion on strg space
+imap <C-Space> <C-x><C-o>
+imap <C-@> <C-Space>
+
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
@@ -119,6 +124,7 @@ if has("autocmd")
   augroup END 
   
   autocmd FileType python set omnifunc=pythoncomplete#Complete
+  autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 
 else
 
