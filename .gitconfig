@@ -3,8 +3,6 @@
 	email = moh@icnh.de
 [credential]
   helper = osxkeychain
-#[branch]
-#  autosetuprebase = always
 [color]
   branch = auto
   diff = auto
@@ -28,5 +26,15 @@
 
 [core]
 	excludesfile = /Users/moh/.gitignore
+	autocrlf = input
+	trustctime = false
+	editor = vim
 [push]
 	default = matching
+[branch]
+	autosetuprebase = always
+[grep]
+	extendRegexp = true
+	lineNumber = true
+[svn]
+	rmdir = true
